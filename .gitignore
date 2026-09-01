@@ -1,0 +1,23 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Environment variables (never commit API keys)
+.env
+.env.local
+.env.*.local
+
+# Tamash-playwright self-healing cache and reports
+.tamash-playwright/
+.playwright-mcp
+.vscode
+test-results.json
+TAMASH_SETUP.md
+TAMASH_CHECKLIST.md
+QUICK_START.md
+test-plan.md

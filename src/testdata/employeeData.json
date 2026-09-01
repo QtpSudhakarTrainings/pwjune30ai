@@ -1,0 +1,190 @@
+{
+    "employees": {
+        "employee1": {
+            "firstName": "John",
+            "middleName": "David",
+            "lastName": "Smith",
+            "username": "john.smith",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        },
+        "employee2": {
+            "firstName": "Jane",
+            "middleName": "Mary",
+            "lastName": "Johnson",
+            "username": "jane.johnson",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        },
+        "employee3": {
+            "firstName": "David",
+            "middleName": "",
+            "lastName": "Williams",
+            "username": "david.williams",
+            "password": "ValidPass@456",
+            "confirmPassword": "ValidPass@456"
+        },
+        "duplicateUsername": {
+            "firstName": "Robert",
+            "middleName": "James",
+            "lastName": "Brown",
+            "username": "testadmin",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        },
+        "weakPassword": {
+            "firstName": "Michael",
+            "middleName": "John",
+            "lastName": "Davis",
+            "username": "michael.davis",
+            "password": "123",
+            "confirmPassword": "123"
+        },
+        "passwordMismatch": {
+            "firstName": "Emily",
+            "middleName": "Louise",
+            "lastName": "Wilson",
+            "username": "emily.wilson",
+            "password": "Password@123",
+            "confirmPassword": "DifferentPass@456"
+        },
+        "noUsername": {
+            "firstName": "Christopher",
+            "middleName": "Paul",
+            "lastName": "Anderson",
+            "username": "",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        },
+        "uploadLargePicture": {
+            "firstName": "Patricia",
+            "middleName": "Jennifer",
+            "lastName": "Martinez",
+            "username": "patricia.martinez",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123",
+            "pictureFile": "test-images/profile-large.jpg"
+        },
+        "uploadInvalidFormat": {
+            "firstName": "Linda",
+            "middleName": "Karen",
+            "lastName": "Robinson",
+            "username": "linda.robinson",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123",
+            "pictureFile": "test-images/profile-invalid.txt"
+        },
+        "removePicture": {
+            "firstName": "Barbara",
+            "middleName": "Margaret",
+            "lastName": "Clark",
+            "username": "barbara.clark",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123",
+            "pictureFile": "test-images/profile-valid.jpg"
+        },
+        "toggleOnOff": {
+            "firstName": "Sandra",
+            "middleName": "Elizabeth",
+            "lastName": "Rodriguez",
+            "username": "sandra.rodriguez",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        },
+        "togglePersistence": {
+            "firstName": "Nancy",
+            "middleName": "Susan",
+            "lastName": "Lewis",
+            "username": "nancy.lewis",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        },
+        "disabledStatus": {
+            "firstName": "Margaret",
+            "middleName": "Jessica",
+            "lastName": "Lee",
+            "username": "margaret.lee",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        },
+        "specialCharacterNames": {
+            "firstName": "François",
+            "middleName": "José",
+            "lastName": "O'Brien",
+            "username": "francois.obrien",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        },
+        "maxLengthName": {
+            "firstName": "VeryLongFirstNameWithManyCharactersToTestMaxLength123456",
+            "middleName": "MiddleNameWithExtraCharactersForBoundaryTesting987654321",
+            "lastName": "VeryLongLastNameToTestFieldValidationAndBoundaryConditions",
+            "username": "max.length.name",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        },
+        "employeeIdReadOnly": {
+            "firstName": "Thomas",
+            "middleName": "Henry",
+            "lastName": "Thompson",
+            "username": "thomas.thompson",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        },
+        "usernameWithSpaces": {
+            "firstName": "Charles",
+            "middleName": "Andrew",
+            "lastName": "Martin",
+            "username": "charles martin",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        },
+        "usernameWithSpecialChars": {
+            "firstName": "Richard",
+            "middleName": "George",
+            "lastName": "Taylor",
+            "username": "richard@taylor",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        },
+        "passwordMaxLength": {
+            "firstName": "William",
+            "middleName": "Michael",
+            "lastName": "Anderson",
+            "username": "william.anderson",
+            "password": "VeryLongPasswordWithManyCharactersToTestMaximumLengthValidationAndBoundaryConditions123456789",
+            "confirmPassword": "VeryLongPasswordWithManyCharactersToTestMaximumLengthValidationAndBoundaryConditions123456789"
+        },
+        "cancelButtonTest": {
+            "firstName": "Joseph",
+            "middleName": "Peter",
+            "lastName": "Jackson",
+            "username": "joseph.jackson",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        },
+        "saveButtonTest": {
+            "firstName": "Daniel",
+            "middleName": "Thomas",
+            "lastName": "White",
+            "username": "daniel.white",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        },
+        "submitWithEnter": {
+            "firstName": "Matthew",
+            "middleName": "Ryan",
+            "lastName": "Harris",
+            "username": "matthew.harris",
+            "password": "TestPass@123",
+            "confirmPassword": "TestPass@123"
+        }
+    },
+    "testImages": {
+        "validJpg": "test-images/profile-valid.jpg",
+        "validPng": "test-images/profile-valid.png",
+        "largeFile": "test-images/profile-large.jpg",
+        "invalidFormat": "test-images/profile-invalid.txt"
+    }
+}
+
