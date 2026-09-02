@@ -6,6 +6,7 @@ export class DashboardPage extends BasePage {
     headerDashboard:Locator
     lnkPIM:Locator
     lnkAdmin:Locator
+    lnkLeave:Locator
     
     constructor(page:Page) {
         super(page);
@@ -13,6 +14,7 @@ export class DashboardPage extends BasePage {
         this.headerDashboard = page.getByText("Dashboard1").first().describe("Dashboard Header in Dashboard Page");
         this.lnkPIM = page.getByRole("link",{name:/xyz/i}).describe("PIM Link in Dashboard Page");
         this.lnkAdmin = page.getByRole("link",{name:/Admin/i}).describe("Admin Link in Dashboard Page");
+        this.lnkLeave = page.getByRole("link",{name:/Leave/i}).describe("Leave Link in Dashboard Page");
     }
 
     async verifyDashboardHeader() {
