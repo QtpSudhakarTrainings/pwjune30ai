@@ -1,4 +1,4 @@
-# OrangeHRM Playwright Test Automation
+# OrangeHRM Playwright Test Automation for Raghu Branch
 
 A comprehensive test automation framework for OrangeHRM using **Playwright** with **Page Object Model (POM)** pattern, demonstrating AI-assisted test development with **tamash-playwright** for self-healing tests.
 

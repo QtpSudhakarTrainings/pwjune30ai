@@ -10,8 +10,8 @@ export class DashboardPage extends BasePage {
     constructor(page:Page) {
         super(page);
         // Use multiple strategies to find the Dashboard header
-        this.headerDashboard = page.getByText("Dashboard1").first().describe("Dashboard Header in Dashboard Page");
-        this.lnkPIM = page.getByRole("link",{name:/xyz/i}).describe("PIM Link in Dashboard Page");
+        this.headerDashboard = page.getByText("Dashboard").first().describe("Dashboard Header in Dashboard Page");
+        this.lnkPIM = page.getByRole("link",{name:/PIM/i}).describe("PIM Link in Dashboard Page");
         this.lnkAdmin = page.getByRole("link",{name:/Admin/i}).describe("Admin Link in Dashboard Page");
     }
 
