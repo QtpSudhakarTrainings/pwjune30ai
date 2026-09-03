@@ -21,3 +21,6 @@ TAMASH_SETUP.md
 TAMASH_CHECKLIST.md
 QUICK_START.md
 test-plan.md
+
+cucumber-report.html
+cucumber-report.json
