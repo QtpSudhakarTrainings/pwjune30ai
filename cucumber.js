@@ -1,8 +1,8 @@
 module.exports = {
   default: {
-    paths: ['bdd/features/loginadmin.feature'],
+    paths: ['bdd/features/addemployee.feature'],
     requireModule: ['tsx/cjs'],
-    require: ['bdd/steps/**/*.steps.ts'],
+    require: ['bdd/support/**/*.ts', 'bdd/steps/**/*.steps.ts'],
     format: [
       'progress-bar',
       'html:cucumber-report.html',
